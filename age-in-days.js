@@ -1,3 +1,3 @@
-funtion ageToDays(age) {
+function ageToDays(age) {
   return age * 365;
 }
