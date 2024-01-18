@@ -1,5 +1,6 @@
-var age = 33
-console.log("Your age in years is " + age)
+var dateOfBirth = new Date("October 2, 1990");
+dateOfBirth.setDate()
+console.log("Your age in years is " + dateOfBirth)
 
-var ageInDays = age * 365;
+var ageInDays = dateOfBirth * 365;
 console.log("Your age in days is " + ageInDays)
