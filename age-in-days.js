@@ -1,5 +1,4 @@
-var dateOfBirth = new Date("October 2, 1990");
-dateOfBirth.setDate()
+var dateOfBirth = new Date();
 console.log("Your age in years is " + dateOfBirth)
 
 var ageInDays = dateOfBirth * 365;
